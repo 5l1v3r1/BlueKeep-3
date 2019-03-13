@@ -7,10 +7,7 @@ header{
 }
 
 section{
-  margin: 15px 800px;
-  padding: 10px;
-  border: 1px solid #d8dee2;
-  border-radius: 4px;
+  margin: 15px auto;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
