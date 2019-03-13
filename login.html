@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <link rel="icon" href="img/icon.png">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+ <script src="js/googlesignin.js"></script>
+<meta name="google-signin-client_id" content="25397218709-48710u0h7gnllr336ooeaonhk86kbs96.apps.googleusercontent.com">
 <link rel="stylesheet" type="text/css" href="css/login.css">
 <title>BlueKeep - Login</title>
 </head>
@@ -15,8 +17,8 @@
   </header>
 
   <section>
-    <div style="border: 1px solid #d8dee2;border-radius: 4px;margin: 15px 800px;padding: 10px;">
-      <form>
+    <div style="margin: 0 auto; width:100%">
+      <form style="border: 1px solid #d8dee2;border-radius: 4px;padding: 10px;margin: 15px 36%;">
         <label for="user">Username</label><br>
         <div style="text-align: center;">
           <input type="text" id="user" size="32"></input><br>
@@ -30,14 +32,17 @@
           <input type="submit" value="Sign in" style="margin: 5px;"></input>
         </div>
       </form>
+
+      <div id="my-signin2" style="display: table;margin: 0 auto;"></div>
     </div>
   </section>
 
-  <div style="border: 1px solid #d8dee2;border-radius: 4px;margin: 15px 800px;padding: 10px;">
-    <section style="text-align: center;">
+  <div style="margin: 0 auto;">
+    <section style="text-align: center;border: 1px solid #d8dee2;border-radius: 4px;padding: 10px;margin: 15px 36%;">
       New to BlueKeep? <a href="signup.html">Create an account.</a>
     </section>
   </div>
+  <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
 </body>
 
 </html>
