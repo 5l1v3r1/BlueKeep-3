@@ -1,0 +1,85 @@
+body{
+  margin: 0 auto;
+}
+
+li a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+h4{
+  margin: auto 300px;
+  color:#333;
+  font-size: 32px;
+  font-family: 'Roboto+Mono', monospace;
+}
+
+article{
+  margin-left: 300px;
+  color:#333;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.top{
+  margin: 0px;
+  background-color: #333;
+  border: 1px black solid;
+  padding-bottom: 50px;
+}
+
+.middle{
+  padding-top: 50px;
+  background-color: #7ad5ff;
+}
+
+.bottom{
+  background-color: #333;
+}
+
+.navbar {
+  list-style-type: none;
+  padding-left: 160px;
+  padding-right:160px;
+  padding-top: 8px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.greeting{
+  color: white;
+  padding-top: 24px;
+  padding-right: 256px;
+  text-align: right;
+  font-size: 64px;
+  font-family: 'Roboto+Mono', monospace;
+  margin: 0px;
+}
+
+.greeting2{
+  color:#d17979;
+  margin: 0px;
+  padding-right: 256px;
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.title{
+  float: left;
+  color: #8cb8ff;
+  text-align: center;
+  padding: 10px 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+}
