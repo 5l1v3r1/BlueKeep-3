@@ -14,6 +14,18 @@ button{
   cursor: pointer;
 }
 
+.mainbody{
+  margin: 0 auto;
+  width: 65%;
+}
+
+.title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: lighter;
+  margin: 16px;
+}
+
 .dropdown{
   float: right;
   position: relative;
