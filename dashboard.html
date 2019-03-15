@@ -4,15 +4,30 @@
 <meta charset="UTF-8">
 <link rel="icon" href="img/icon.png">
 <link rel="stylesheet" type="text/css" href="css/dashboard.css">
+<meta name="google-signin-client_id" content="25397218709-48710u0h7gnllr336ooeaonhk86kbs96.apps.googleusercontent.com">
+<script src="js/dashboard.js"></script>
 <title>Dashboard</title>
 </head>
 
 <body>
-  <nav>
-    <ul class="navbar">
-      <li><img src="img/icon.png"></img></li>
-    </ul>
-  </nav>
+  <!-- Navingation --->
+  <div class="navcontainer">
+    <nav>
+      <ul class="navbar">
+        <li><img src="img/icon.png"></img></li>
+        <div class="dropdown">
+          <li><button onClick="dropDown()"><img src="img/icon.png" id="profile"></img></button></li>
+        </div>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Body content --->
+  <section>
+
+  </section>
+
+  <script src="https://apis.google.com/js/platform.js?onload=onLoad" async defer></script>
 </body>
 
 </html>
