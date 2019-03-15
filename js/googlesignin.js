@@ -1,5 +1,4 @@
     function onSuccess(googleUser) {
-      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
       window.location.replace("http://localhost:3000/dashboard.html");
     }
     function onFailure(error) {
