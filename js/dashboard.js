@@ -16,7 +16,7 @@ function loadProfileContent(auth2){
     console.log('Family Name: ' + profile.getFamilyName());
     console.log('Image URL: ' + profile.getImageUrl());
     console.log('Email: ' + profile.getEmail());
-    let profileImg = document.getElementById("profile");
+    let profileImg = document.getElementById("profile-pic");
     profileImg.src = profile.getImageUrl();
 
   }else{

@@ -1,36 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<link rel="icon" href="img/icon.png">
-<link rel="stylesheet" type="text/css" href="css/dashboard.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Mono" rel="stylesheet">
-<meta name="google-signin-client_id" content="25397218709-48710u0h7gnllr336ooeaonhk86kbs96.apps.googleusercontent.com">
-<script src="js/dashboard.js"></script>
-<title>Dashboard</title>
+  <meta charset="UTF-8">
+  <link rel="icon" href="img/icon.png">
+  <title>Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="css/dashboard.css">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Mono" rel="stylesheet">
+
+  <!-- Google Sign in -->
+  <meta name="google-signin-client_id" content="25397218709-48710u0h7gnllr336ooeaonhk86kbs96.apps.googleusercontent.com">
+  <script src="js/dashboard.js"></script>
 </head>
 
 <body>
-  <!-- Navingation --->
-  <div class="navcontainer">
-    <nav>
-      <ul class="navbar">
-        <div class="nav-contents">
-          <li><img src="img/icon.png" style="padding: 0px; margin-top: 5px;"></img></li>
-          <div class="dropdown">
-            <li><button class="profileButton" onClick="dropDown()"><img src="img/icon.png" id="profile" style="padding: 0px; margin: 0px"></img></button></li>
-          </div>
-        </div>
-      </ul>
-    </nav>
-  </div>
 
-  <!-- Body content --->
-  <section>
-    <div class="mainbody">
-      <h1 class="title">Dashboard</h1>
-    </div>
-  </section>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="img/icon.png" width="30" height="30" class="d-inline-block align-top">
+      BlueKeep
+    </a>
+    <button id="profileButton" style="border-radius: 20px;border:none;"><img id="profile-pic" src="img/icon.png" width="40" height="40"></img></button>
+  </nav>
 
   <script src="https://apis.google.com/js/platform.js?onload=onLoad" async defer></script>
 </body>
