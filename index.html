@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Mono" rel="stylesheet">
 
   <meta charset="UTF-8">
   <title>BlueKeep - Home</title>
@@ -15,37 +17,40 @@
 
 <body>
 
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1>BlueKeep</h1>
-        </div>
-        <div class="col">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light" style="float: right;">
-            <button>Log In</button>
-            <button>Sign Up</button>
-          </nav>
-        </div>
-      </div>
-    </div>
-
-    <!-- Title Section -->
-    <section style="background-color: #333;">
+    <!-- Navigation bar -->
+    <section style="background-color: #333; padding: 20px;">
       <div class="container">
         <div class="row">
           <div class="col">
-            <img src="img/main.png"></img>
+            <h1 style="color:white;font-family: 'Montserrat', sans-serif;font-size: 42px;">BlueKeep</h1>
           </div>
           <div class="col">
-            <h1 style="color: white;">Meet BlueKeep,</h1>
-            <h2 style="color: white;">reminders everywhere you go!</h2>
+            <nav class="nav" style="float: right;">
+              <a class="nav-link" href="#">Login</a>
+              <a class="nav-link" href="#">Signup</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Title Section -->
+    <section style="background-color: #333;padding:20px;">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="img/main.png" class="rounded float-left" style="width: 700px">
+          </div>
+          <div class="col">
+            <h1 style="color: white;font-family: 'Roboto Mono', monospace;font-size: 50px;">Meet BlueKeep,</h1>
+            <h2 style="color: red;font-family: 'Montserrat', sans-serif;font-size: 24px;">reminders everywhere you go!</h2>
           </div>
         </div>
       </div>
     </section>
 
     <!-- About Section -->
-    <section>
+    <section style="padding: 20px">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -66,7 +71,7 @@
     </section>
 
     <!-- Around the world Section -->
-    <section style="background-color: #333;">
+    <section style="background-color: #333;padding: 20px;">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -85,6 +90,7 @@
       </div>
     </section>
 
+    <!-- Footer -->
     <footer style="background-color: #333">
       <div class="container">
         <div class="row">
