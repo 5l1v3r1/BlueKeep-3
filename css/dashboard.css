@@ -8,10 +8,16 @@ nav{
 }
 
 button{
-  border: 1px solid gray;
+  margin: 0px;
+  border: none;
   border-radius: 100%;
   text-align: center;
   cursor: pointer;
+  padding: 0px;
+}
+
+.profileButton{
+  margin: 5px;
 }
 
 .mainbody{
@@ -27,6 +33,7 @@ button{
 }
 
 .dropdown{
+  padding: 0px;
   float: right;
   position: relative;
   display: inline-block;
@@ -45,11 +52,6 @@ button{
 }
 
 .navbar img{
-  width: 5%;
+  width: 60px;
   float: left;
-  margin: 5px;
-}
-
-#profile{
-  width: 55px;
 }
