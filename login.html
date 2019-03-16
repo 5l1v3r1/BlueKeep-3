@@ -1,48 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<link rel="icon" href="img/icon.png">
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
- <script src="js/googlesignin.js"></script>
-<meta name="google-signin-client_id" content="25397218709-48710u0h7gnllr336ooeaonhk86kbs96.apps.googleusercontent.com">
-<link rel="stylesheet" type="text/css" href="css/login.css">
-<title>BlueKeep - Login</title>
+  <meta charset="UTF-8">
+  <link rel="icon" href="img/icon.png">
+  <title>BlueKeep - Login</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Mono" rel="stylesheet">
+
+  <!-- Google Sign in -->
+  <script src="js/googlesignin.j"></script>
+  <meta name="google-signin-client_id" content="25397218709-48710u0h7gnllr336ooeaonhk86kbs96.apps.googleusercontent.com">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+
 </head>
 
 <body>
+
+  <!-- Title -->
   <header>
-    <a href="/"><img src="img/icon.png" style="width: 4%;padding-top:18px;"></img></a>
-    <h1 style="font-family: 'Roboto', sans-serif;font-weight:100;font-size:24px"> Sign into BlueKeep</h1>
+    <div class="container">
+      <div class="row" style="margin-top: 20px;">
+        <div class="col align-self-center">
+          <a href="/"><img src="img/icon.png" class="rounded mx-auto d-block" style="width: 70px;"></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col align-self-center" style="text-align: center;">
+          <h3 style="padding: 10px;font-family: 'Montserrat', sans-serif;font-size: 24px;"> Sign into BlueKeep</h3>
+        </div>
+      </div>
+    </div>
   </header>
 
-  <section>
-    <div style="margin: 0 auto; width:100%">
-      <form style="border: 1px solid #d8dee2;border-radius: 4px;padding: 10px;margin: 15px 36%;">
-        <label for="user">Username</label><br>
-        <div style="text-align: center;">
-          <input type="text" id="user" size="32"></input><br>
-        </div>
-          <label for="pass">Password</label><br>
-        <div style="text-align: center;">
-          <input type="password" id="pass" size="32"></input><br>
-        </div>
-
-        <div style="text-align: center;">
-          <input type="submit" value="Sign in" style="margin: 5px;"></input>
-        </div>
-      </form>
-
-      <div id="my-signin2" style="display: table;margin: 0 auto;"></div>
+  <!-- Login form -->
+  <div class="container">
+    <div class="row">
+      <div class="col align-self-center">
+        <form style="margin-right: 400px;margin-left: 400px;border: 1px solid #d8dee2;padding: 20px;">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Sign in</button>
+        </form>
+        <div id="my-signin2" style="display: table;margin: 0 auto;"></div>
+      </div>
     </div>
-  </section>
-
-  <div style="margin: 0 auto;">
-    <section style="text-align: center;border: 1px solid #d8dee2;border-radius: 4px;padding: 10px;margin: 15px 36%;">
-      New to BlueKeep? <a href="signup.html">Create an account.</a>
-    </section>
   </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col align-self-center">
+        <div style="border: 1px solid #d8dee2;text-align: center; margin-top: 10px;margin-left: 400px; margin-right:400px; padding: 10px;">
+          New to BlueKeep? <a href="signup.html">Create an account.</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+
 </body>
 
 </html>
