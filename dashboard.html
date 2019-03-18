@@ -35,6 +35,7 @@
         </button>
         <div class="dropdown-menu dropdown-menu-right">
           <button class="dropdown-item" type="button">Profile</button>
+          <button class="dropdown-item" type="button">Settings</button>
           <button class="dropdown-item" type="button" onclick="signOut()">Sign out</button>
         </div>
       </div>
@@ -46,13 +47,13 @@
   </div>
 
   <!-- Top Cards -->
-  <div class="container">
+  <div class="container" style="padding: 20px;">
     <div class="row">
 
       <div class="col-sm">
         <div class="card" style="width: 20rem;">
           <div class="card-body">
-            <h5 class="card-title">To-do</h5>
+            <h5 class="card-title" style="color:red;">To-do</h5>
             <h6 class="card-subtitle mb-2 text-muted">Things to get done</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <a href="#" class="card-link">See all</a>
@@ -63,7 +64,7 @@
       <div class="col-sm">
         <div class="card" style="width: 20rem;">
           <div class="card-body">
-            <h5 class="card-title">Events</h5>
+            <h5 class="card-title" style="color:blue;">Events</h5>
             <h6 class="card-subtitle mb-2 text-muted">Keep track of occasions</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <a href="#" class="card-link">See all</a>
@@ -74,8 +75,8 @@
       <div class="col-sm">
         <div class="card" style="width: 20rem;">
           <div class="card-body">
-            <h5 class="card-title">Notes</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <h5 class="card-title" style="color:green;">Notes</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Jot down ideas</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <a href="#" class="card-link">See all</a>
           </div>
@@ -84,6 +85,47 @@
 
     </div>
   </div>
+
+  <hr />
+
+  <!-- Title List -->
+  <div class="container" style="padding: 26px;">
+    <h3>To-do</h3>
+  </div>
+  <!-- List Contents -->
+  <div class="container">
+    <table class="table table-sm table-dashboard data-table display responsive no-wrap mb-0 fs--1 w-100">
+  <thead class="bg-200">
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Due date</th>
+      <th>Priority Level</th>
+    </tr>
+  </thead>
+  <tbody class="bg-white">
+    <tr>
+      <td>Meet with representative</td>
+      <td>Talk about future plans</td>
+      <td>12/25/2020</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>Get a haircut</td>
+      <td>Haircut for job interview</td>
+      <td>06/27/2019</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Wash my car</td>
+      <td>--</td>
+      <td>01/25/2019</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+
 
   <script src="https://apis.google.com/js/platform.js?onload=onLoad" async defer></script>
 </body>
