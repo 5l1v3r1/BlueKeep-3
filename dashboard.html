@@ -42,12 +42,12 @@
   </nav>
 
   <!-- Title -->
-  <div class="container" style="padding: 26px;">
+  <div class="p-3 container">
     <h1>Dashboard</h1>
   </div>
 
   <!-- Top Cards -->
-  <div class="container" style="padding: 20px;">
+  <div class="p-3 container">
     <div class="row">
 
       <div class="col-sm">
@@ -89,43 +89,42 @@
   <hr />
 
   <!-- Title List -->
-  <div class="container" style="padding: 26px;">
+  <div class="p-3 container">
     <h3>To-do</h3>
   </div>
   <!-- List Contents -->
-  <div class="container">
+  <div class="p-2 container">
     <table class="table table-sm table-dashboard data-table display responsive no-wrap mb-0 fs--1 w-100">
-  <thead class="bg-200">
-    <tr>
-      <th>Name</th>
-      <th>Description</th>
-      <th>Due date</th>
-      <th>Priority Level</th>
-    </tr>
-  </thead>
-  <tbody class="bg-white">
-    <tr>
-      <td>Meet with representative</td>
-      <td>Talk about future plans</td>
-      <td>12/25/2020</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>Get a haircut</td>
-      <td>Haircut for job interview</td>
-      <td>06/27/2019</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>Wash my car</td>
-      <td>--</td>
-      <td>01/25/2019</td>
-      <td>1</td>
-    </tr>
-  </tbody>
-</table>
+      <thead class="bg-200">
+        <tr>
+          <th>Task</th>
+          <th>Due date</th>
+          <th>Priority Level</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody class="bg-white">
+        <tr>
+          <td>Meet with representative</td>
+          <td>12/25/2020</td>
+          <td>4</td>
+          <td><a href="#">Mark as complete</a> | <a href="#">Delete</a></td>
+        </tr>
+        <tr>
+          <td>Haircut for job interview</td>
+          <td>06/27/2019</td>
+          <td>2</td>
+          <td><a href="#">Mark as complete</a> | <a href="#">Delete</a></td>
+        </tr>
+        <tr>
+          <td>Wash my car</td>
+          <td>01/25/2019</td>
+          <td>1</td>
+          <td><a href="#">Mark as complete</a> | <a href="#">Delete</a></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
-
 
   <script src="https://apis.google.com/js/platform.js?onload=onLoad" async defer></script>
 </body>
