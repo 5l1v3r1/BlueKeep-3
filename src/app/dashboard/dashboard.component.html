@@ -1,0 +1,103 @@
+<!-- Navigation Bar -->
+  <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="dashboard">
+        <img src="assets/icon.png" width="30" height="30" class="d-inline-block align-top">
+        BlueKeep
+      </a>
+
+      <div class="btn-group">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img id="profile-pic" src="assets/user.png" width="30" height="30">
+        </button>
+        <div class="dropdown-menu dropdown-menu-right">
+          <button class="dropdown-item" type="button">Profile</button>
+          <button class="dropdown-item" type="button">Settings</button>
+          <button class="dropdown-item" type="button" onclick="">Sign out</button>
+        </div>
+      </div>
+  </nav>
+
+  <!-- Title -->
+  <div class="p-3 container">
+    <h1>Dashboard</h1>
+  </div>
+
+  <!-- Top Cards -->
+  <div class="p-3 container">
+    <div class="row">
+
+      <div class="col-sm">
+        <div class="card" style="width: 20rem;">
+          <div class="card-body">
+            <h5 class="card-title" style="color:red;">To-do</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Things to get done</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link">See all</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm">
+        <div class="card" style="width: 20rem;">
+          <div class="card-body">
+            <h5 class="card-title" style="color:blue;">Events</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Keep track of occasions</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link">See all</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm">
+        <div class="card" style="width: 20rem;">
+          <div class="card-body">
+            <h5 class="card-title" style="color:green;">Notes</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Jot down ideas</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link">See all</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <hr />
+
+  <!-- Title List -->
+  <div class="p-3 container">
+    <h3>To-do</h3>
+  </div>
+  <!-- List Contents -->
+  <div class="p-2 container">
+    <table class="table table-sm table-dashboard data-table display responsive no-wrap mb-0 fs--1 w-100">
+      <thead class="bg-200">
+        <tr>
+          <th>Task</th>
+          <th>Due date</th>
+          <th>Priority Level</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody class="bg-white">
+        <tr>
+          <td>Meet with representative</td>
+          <td>12/25/2020</td>
+          <td>4</td>
+          <td><a href="#">Mark as complete</a> | <a href="#">Delete</a></td>
+        </tr>
+        <tr>
+          <td>Haircut for job interview</td>
+          <td>06/27/2019</td>
+          <td>2</td>
+          <td><a href="#">Mark as complete</a> | <a href="#">Delete</a></td>
+        </tr>
+        <tr>
+          <td>Wash my car</td>
+          <td>01/25/2019</td>
+          <td>1</td>
+          <td><a href="#">Mark as complete</a> | <a href="#">Delete</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
