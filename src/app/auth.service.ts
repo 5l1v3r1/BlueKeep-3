@@ -24,6 +24,10 @@ export class AuthService {
     });
   }
 
+  signup(name, email, pass){
+    //TODO: Sign up
+  }
+
   signOut(){
     this.afAuth.auth.signOut().then(()=>{
       // TODO: Sign out successful.
